@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="busquedaDoc.js"></script>
+
+    <title>Buscar Documento</title>
+    
+</head>
+<body>
+
+    <div class="container">
+        <div class=" raw">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link" href="#">Documentación</a>
+                </li>
+                <li  class="nav-item">
+                  <a href="paciente.html" class="nav-link" href="#">Paciente</a>
+                </li>
+                
+              </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Buscar documentación</h2>
+    </div>
+
+    <!--Caja de texto y boton busqueda-->
+
+<div class="d-flex justify-content-center">
+    <div class="input-group input-group-sm" style="max-width: 300px;">
+      <input type="text" id="inputId" class="form-control">
+      <div class="input-group-append">
+        <button onclick="buscarDato()" class="btn btn-primary">Buscar</button>
+      </div>
+    </div>
+  </div>
+
+  <!--Tabla-->
+
+<div class="container">
+        <table id= "docTable" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"># Id</th>
+                    <th scope="col">Tipo de documento</th>
+                </tr>
+            </thead>
+
+        <tbody>
+                
+        </tbody>
+</table>
+
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+D:\PRO EDU\C#\AppHospital\Hospital.Data\bin\Debug\net6.0\Hospital.Data.deps.json
+D:\PRO EDU\C#\AppHospital\Hospital.Data\bin\Debug\net6.0\Hospital.Data.dll
+D:\PRO EDU\C#\AppHospital\Hospital.Data\bin\Debug\net6.0\Hospital.Data.pdb
+D:\PRO EDU\C#\AppHospital\Hospital.Data\bin\Debug\net6.0\Hospital.Model.dll
+D:\PRO EDU\C#\AppHospital\Hospital.Data\bin\Debug\net6.0\Hospital.Model.pdb
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.csproj.AssemblyReference.cache
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.AssemblyInfoInputs.cache
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.AssemblyInfo.cs
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.csproj.CoreCompileInputs.cache
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.csproj.CopyComplete
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.dll
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\refint\Hospital.Data.dll
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\Hospital.Data.pdb
+D:\PRO EDU\C#\AppHospital\Hospital.Data\obj\Debug\net6.0\ref\Hospital.Data.dll

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="ScriptPaciente.js"></script>
+
+
+
+    <title>Gestion de Paciente</title>
+</head>
+<body>
+
+
+    <!-- Navbar -->
+    <div class="container">
+        <div class=" raw">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link" href="#">Documentación</a>
+                </li>
+                <li  class="nav-item">
+                  <a href="paciente.html" class="nav-link" href="#">Paciente</a>
+                </li>
+                
+              </ul>
+        </div>
+    </div>
+
+
+    <!-- Titulo -->
+
+    <div class="container">
+        <h3>Gestión de pacientes</h2>
+    </div>
+
+    <!-- Boton para registrar y buscar-->
+    <div class="container">
+        <p><a href="agregarPaciente.html" onclick="agregarPaciente()" class="  btn btn-outline-primary">Registrar</a></p>
+        <p><a href="buscarPaciente.html" onclick="agregarPaciente()" class="  btn btn-outline-primary">Buscar paciente</a></p>
+    </div>
+
+
+
+    <!-- Tabla -->
+
+<div class="container">
+        <table id= "pacienteTable" class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"># Id</th>
+                    <th scope="col">Id paciente</th>
+                    <th scope="col">Numero de documento</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Fecha nacimiento</th>
+                    <th scope="col">Rh</th>
+                    <th scope="col">Acciones</th>
+                </tr>
+            </thead>
+
+        <tbody>
+                
+        </tbody>
+</table>
+
+    </div>
+</body>
+</html>

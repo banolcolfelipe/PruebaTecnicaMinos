@@ -1,0 +1,23 @@
+Codigo en mysql:
+
+create database hospitalModel;
+use hospitalModel;
+
+create table tipo_documento(
+id int(11) not null auto_increment,
+nom_doc varchar(10) not null,
+primary key(id)
+);
+
+create table paciente(
+id int(11) not null auto_increment,
+documento_id int not null,
+num_documento varchar(10),
+nombre varchar(30),
+apellido varchar(30),
+sexo varchar(10),
+fecha_nacimiento date,
+rh varchar(3),
+primary key(id),
+foreign key(documento_id) references tipo_documento(id) 
+);
